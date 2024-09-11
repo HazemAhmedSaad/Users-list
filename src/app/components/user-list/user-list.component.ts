@@ -1,9 +1,10 @@
+import { NgClass, NgStyle } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-user-list',
   standalone: true,
-  imports: [],
+  imports: [NgStyle,NgClass],
   templateUrl: './user-list.component.html',
   styleUrl: './user-list.component.css'
 })
